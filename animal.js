@@ -16,3 +16,8 @@ let pet = animal();
 let col = color();
 let ojos = col.length;
 
+if (pet === 'Vaca' || pet === 'Gallina'){
+    console.log(`Hoy eres una ${pet} de color ${col} con ${patas} patas y ${ojos} ojos.`)
+} else {
+    console.log(`Hoy eres un ${pet} de color ${col} con ${patas} patas y ${ojos} ojos.`)
+}
